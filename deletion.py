@@ -7,8 +7,8 @@ import time
 def read_emails():
     try:
         mail = imaplib.IMAP4_SSL("imap.gmail.com", 993)
-        g = "maheshsai369@gmail.com"
-        p = "9032786272"
+        g = "********"
+        p = "********"
         mail.login(g, p)
         mail.select('"[Gmail]/All Mail"')
 
